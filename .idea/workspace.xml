@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2ab4c8d-cb3a-4f54-9038-dd2b7d8062ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/setProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HandCloset/src/main/java/com/HandCloset/HandCloset/Controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/setupProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/HandCloset/src/main/frontend/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandCloset/src/main/java/com/HandCloset/HandCloset/Controller/HelloWorldController.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P5zYypK3zHBC07QCGdrsRiu0ue" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kch11/OneDrive/문서/GitHub/NewFile/HandCloset/HandCloset"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2ab4c8d-cb3a-4f54-9038-dd2b7d8062ba" name="Changes" comment="" />
+      <created>1682761781670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682761781670</updated>
+      <workItem from="1682761783967" duration="36000" />
+      <workItem from="1682761970283" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
