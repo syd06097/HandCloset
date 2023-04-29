@@ -54,10 +54,29 @@ const ClothingForm = () => {
     };
 
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         // 여기서 백엔드로 데이터를 보내는 로직을 구현해야 합니다.
         console.log({ image, category, subcategory, seasons, description });
+        const formData = new FormData();
+        formData.append('image', image);
+        formData.append('category', category);
+        formData.append('subcategory', subcategory);
+        seasons.forEach((season) => {
+            formData.append('seasons[]', season);
+        });
+        formData.append('description', description);
+
+        try {
+            const response = await fetch('/api/clothing', {
+                method: 'POST',
+                body: formData,
+            });
+            const data = await response.json();
+            console.log(data);
+        } catch (error) {
+            console.error(error);
+        }
     };
 
     const categories = [
@@ -86,7 +105,7 @@ const ClothingForm = () => {
                 </div>
                 <label for={styles.file}>
                         <div className={styles.btn_upload}>파일업로드</div>             
-                <input type="file" name="file" id={styles.file} accept="image/*"onChange={handleImageChange} required/>
+                <input type="file" name="file" id={styles.file} accept="image/*" onChange={handleImageChange} required/>
                 </label>
             </div>
             <div>
