@@ -1,19 +1,26 @@
-import React, {useEffect, useState} from 'react';
-import axios from 'axios';
+import { Route, Routes } from "react-router-dom";
+
+import "./App.css";
+import Main from "./pages/Main";
+import Calendar from "./pages/Calendar";
+import MyPage from "./pages/MyPage";
+import Closet from "./pages/Closet";
+import ClothingForm from "./pages/ClothingForm";
+import BottomNav from "./BottomNav";
 
 function App() {
-  const [hello, setHello] = useState('')
-
-  useEffect(() => {
-    axios.get('/api/hello')
-        .then(response => setHello(response.data))
-        .catch(error => console.log(error))
-  }, []);
-
   return (
-      <div>
-        백엔드에서 가져온 데이터입니다 : {hello}
-      </div>
+    <div className="App">
+      <BottomNav />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/Main" element={<Main />} />
+        <Route path="/Calendar" element={<Calendar />} />
+        <Route path="/MyPage" element={<MyPage />} />
+        <Route path="/Closet" element={<Closet />} />
+        <Route path="/ClothingForm" element={<ClothingForm />} />
+      </Routes>
+    </div>
   );
 }
 
